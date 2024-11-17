@@ -1,0 +1,151 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background: url('https://www.woodchipandmagnolia.co.uk/cdn/shop/products/WM-325_3_1080x.jpg?v=1689072428') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    color: #ff4b61;
+    text-align: center;
+    background-color: #fff; /* Add a soft background color */
+    padding: 10px;
+    border-radius: 10px;
+}
+ h2, h3 {
+    color: #ff6b81;
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid #ff6b81;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px; /* Space between input boxes */
+}
+button, #registerForm button, #loginForm button, #flowerArea button {
+    background-color: #ff6b81;
+    border-radius: 20px;
+    padding: 10px; /* Optional: adds some padding for better appearance */
+    border: none;
+    font-size: 14px;/* Optional: removes border if you want a smoother look */
+}
+
+button {
+    padding: 10px;
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #ff4b61;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    border: 1px solid #ff6b81;
+}
+
+li button {
+    margin: 10px;
+    background-color: #f1a7b5;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    width: 80px;
+}
+
+li button:hover {
+    background-color: #ff4d4d;
+}
+
+a {
+    color: #ff6b81;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card img {
+    border-radius: 8px;
+}
+
+.carousel-inner {
+    max-width: 400px; /* Fixed width */
+    margin: 0 auto;  /* Centered */
+}
+
+.carousel-inner img {
+    height: 300px; /* Fixed height */
+    object-fit: cover;
+}
+
+.carousel-control-prev {
+    margin-left: 290px;
+}
+
+.carousel-control-next {
+    margin-right: 290px;
+}
+a {
+    color: #ff6b81; /* Change the color of the link */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4b61; /* Change the hover color of the link */
+}
+footer {
+    color: #ff6b81;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}

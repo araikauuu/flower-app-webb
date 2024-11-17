@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Dataset</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background: url('https://www.woodchipandmagnolia.co.uk/cdn/shop/products/WM-325_3_1080x.jpg?v=1689072428') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 25px;
+        }
+
+        h1 {
+            color: #ff6b81;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            color: #ff6b81;
+            text-align: center;
+        }
+
+        canvas {
+            width: 100% !important;
+            max-width: 400px;
+            height: 300px;
+            margin: 20px auto;
+            #backButton {
+                display: block;
+                margin: 20px auto;
+                padding: 10px 20px;
+                background-color: #ff6b81;
+                color: white;
+                text-align: center;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+
+            #backButton:hover {
+                background-color: #ff4c60;
+        }
+
+            .news-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .news-item {
+                background: #fff;
+                margin: 15px 0;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 80%;
+            }
+
+            .news-item h3 {
+                color: #ff6b81;
+            }
+
+            .news-item p {
+                color: #333;
+            }
+            footer {
+                background-color: #ff6b81;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                margin-top: auto; /* Pushes footer to the bottom */
+            }
+
+            footer p {
+                margin: 0;
+                font-size: 14px;
+            }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Flower Dataset Statistics</h1>
+
+    <div>
+        <p id="average">Average Height: </p>
+        <p id="min">Min Height: </p>
+        <p id="max">Max Height: </p>
+        <p id="speciesMode">Most Common Species: </p>
+        <p id="sizeMode">Most Common Size: </p>
+        <p id="fragranceMode">Most Common Fragrance: </p>
+    </div>
+
+    <canvas id="pieChart"></canvas>
+    <canvas id="lineChart"></canvas>
+
+    <h1>Climate Change News</h1>
+    <div class="news-container" id="newsContainer">
+        <!-- News items will be populated here -->
+    </div>
+    <a href="/index.html" id="backButton">Back to Flower Garden</a>
+</div>
+<footer>
+    <p>2024 Arailym Namet | BDA-2301 </p>
+</footer>
+<script src="/script.js"></script>
+</body>
+</html>
